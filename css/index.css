@@ -204,3 +204,13 @@ nav a {
 .ten {
     background-color: dodgerblue;
 }
+
+.heart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.heart section {
+    width: 380px;
+}
