@@ -241,5 +241,15 @@ button {
     margin-top: 20px;
 }
 
+button:hover {
+    background: black;
+    color: white;
+    transform: rotate(-720deg);
+    height: 15%;
+    width: 15%;
+    transition: 3s ease-out;
+
+}
+
 /* LETS WORK TOGETHERRRRRRRRRRRRRRRRRRRRRRRRRRRRRR */
 
