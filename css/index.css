@@ -68,7 +68,7 @@ p {
 
 .container {
     width: 800px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .top-content {
@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -205,13 +204,13 @@ nav a {
     background-color: dodgerblue;
 }
 
-/* ABOUT SECTIONNNNNNNNNNNNNNNNNN */
+/* ABOUT SECTIONNNNNNNNNNNNNNNNNN BEGINNNNNNNNNNNNNNNS*/
 
 .theme {
-    margin: 20px;
+    margin: 30px;
 }
 
-/* middle SECTIONNNNNNNNNNNNNNNNNN */
+/* ALL THINGS MIDDLE SECTIONNNNNNNNNNNNNNNNNN */
 
 .heart {
     display: flex;
@@ -238,5 +237,9 @@ button {
 	border: 2px solid black;
 	height: 40px;
 	width: 125px;
-	margin-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
+
+/* LETS WORK TOGETHERRRRRRRRRRRRRRRRRRRRRRRRRRRRRR */
+
