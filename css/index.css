@@ -205,12 +205,38 @@ nav a {
     background-color: dodgerblue;
 }
 
+/* ABOUT SECTIONNNNNNNNNNNNNNNNNN */
+
+.theme {
+    margin: 20px;
+}
+
+/* middle SECTIONNNNNNNNNNNNNNNNNN */
+
 .heart {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    border-top: 1px dashed black;
+    margin-top: 20px;
 }
 
 .heart section {
     width: 380px;
+    border-bottom: 1px dashed black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.heart h2 {
+    margin-top: 10px;
+}
+
+button {
+	background: white;
+	border-radius: 5px;
+	border: 2px solid black;
+	height: 40px;
+	width: 125px;
+	margin-bottom: 20px;
 }
