@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +143,113 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* HEADER NAVIGATION AND TOP CONTENTCODE */
+header nav {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+}
+
+.top-content {
+    margin-top: 20px;
+}
+
+/* BOX COLORING  */
+.one {
+    background-color: teal;
+}
+
+.two {
+    background-color: gold;
+}
+
+.three {
+    background-color: cadetblue;
+}
+
+.four {
+    background-color: coral;
+}
+
+.five {
+    background-color: crimson;
+}
+
+.six {
+    background-color: forestgreen;
+}
+
+.seven {
+    background-color: darkorchid
+}
+
+.eight {
+    background-color: hotpink;
+}
+
+.nine {
+    background-color: indigo;
+}
+
+.ten {
+    background-color: dodgerblue;
+}
+
+/* ABOUT SECTIONNNNNNNNNNNNNNNNNN BEGINNNNNNNNNNNNNNNS*/
+
+.theme {
+    margin: 30px;
+}
+
+/* ALL THINGS MIDDLE SECTIONNNNNNNNNNNNNNNNNN */
+
+.heart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 1px dashed black;
+    margin-top: 20px;
+}
+
+.heart section {
+    width: 380px;
+    border-bottom: 1px dashed black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.heart h2 {
+    margin-top: 10px;
+}
+
+button {
+	background: white;
+	border-radius: 5px;
+	border: 2px solid black;
+	height: 40px;
+	width: 125px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: black;
+    color: white;
+    transform: rotate(-720deg);
+    height: 15%;
+    width: 15%;
+    transition: 3s ease-out;
+
+}
+
+/* LETS WORK TOGETHERRRRRRRRRRRRRRRRRRRRRRRRRRRRRR */
+
